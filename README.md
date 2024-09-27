@@ -1,2 +1,2 @@
-# gardel-cyber.github.io
+# gardeltech.github.io
 Mi web personal

@@ -1,4 +1,69 @@
-let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+document.addEventListener('DOMContentLoaded', function() {
+      
+    // Inicializar el carrito y el total en localStorage
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+    localStorage.setItem('total', total);
+    actualizarCarrito();
+
+    // Agregar evento de click al botón de agregar producto al carrito
+    const agregarProductoBtn = document.getElementById('agregar-producto');
+    agregarProductoBtn.addEventListener('click', () => {
+        const productoInput = document.getElementById('producto-input');
+        const precioInput = document.getElementById('precio-input');
+        if (productoInput.value && precioInput.value) {
+            agregarCarrito(productoInput.value, parseFloat(precioInput.value));
+            productoInput.value = '';
+            precioInput.value = '';
+        }
+    });
+    
+    // Agregar evento de click al botón de eliminar producto del carrito
+    const eliminarProductoBtn = document.getElementById('eliminar-producto');
+    eliminarProductoBtn.addEventListener('click', () => {
+        const productoInput = document.getElementById('eliminar-input');
+        if (productoInput.value) {
+            eliminarCarrito(productoInput.value, parseFloat(document.getElementById('eliminar-precio').value));
+            productoInput.value = '';
+            document.getElementById('eliminar-precio').value = '';
+        }
+    });
+    
+    // Agregar evento de click al botón de vaciar carrito
+    const vaciarCarritoBtn = document.getElementById('vaciar-carrito');
+    vaciarCarritoBtn.addEventListener('click', () => {
+        carrito = [];
+        total = 0;
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+        localStorage.setItem('total', total);
+        actualizarCarrito();
+    });
+    
+    // Agregar evento de click al botón de calcular descuento
+    const calcularDescuentoBtn = document.getElementById('calcular-descuento');
+    calcularDescuentoBtn.addEventListener('click', () => {
+        const descuentoInput = document.getElementById('descuento-input');
+        if (descuentoInput.value) {
+            const descuento = parseFloat(descuentoInput.value);
+            total = total - (total * descuento / 100);
+            localStorage.setItem('total', total);
+
+            actualizarCarrito();
+            descuentoInput.value = '';
+            document.getElementById('total-carrito').textContent = total.toFixed(2);
+            document.getElementById('total-carrito').textContent = total.toFixed(2);
+    }});
+        actualizarCarrito();
+
+
+
+
+
+        
+        
+    // Your code here...
+});
+        
+        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         let total = parseFloat(localStorage.getItem('total')) || 0;
 
         // Función para agregar producto al carrito
@@ -18,7 +83,7 @@ let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
             const index = carrito.findIndex(item => item.producto === producto);
             if (index > -1) {
                 total -= carrito[index].precio * carrito[index].cantidad;
-                carrito.splice(index, 1);
+                carrito.splice(precio, index, 1);
                 actualizarCarrito();
             }
         }

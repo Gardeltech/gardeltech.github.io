@@ -49,12 +49,34 @@
 <body>
   <h1>AgroMarket Productos</h1>
     <main class="container">
-      <section class="producto">
-        
-        
-
-
-      </section>
+        <section id="inicio">
+           
+            <div class="productos">
+                <!-- Producto 1 -->
+                <div class="producto">
+                    <img src="https://via.placeholder.com/200x150?text=Manzanas" alt="Manzanas">
+                    <h3>Manzanas</h3>
+                    <p>€2.00 / kg</p>
+                    <button class="boton-agregar" onclick="agregarCarrito('Manzanas', 2)">Agregar al carrito</button>
+                </div>
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <img src="https://via.placeholder.com/200x150?text=Plátanos" alt="Plátanos">
+                    <h3>Plátanos</h3>
+                    <p>€1.50 / kg</p>
+                    <button class="boton-agregar" onclick="agregarCarrito('Plátanos', 1.5)">Agregar al carrito</button>
+                </div>
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <img src="https://via.placeholder.com/200x150?text=Zanahorias" alt="Zanahorias">
+                    <h3>Zanahorias</h3>
+                    <p>€1.00 / kg</p>
+                    <button class="boton-agregar" onclick="agregarCarrito('Zanahorias', 1)">Agregar al carrito</button>
+                </div>
+                <!-- Puedes agregar más productos aquí -->
+            </div>
+        </section>
+    
       
 
         
@@ -67,7 +89,7 @@
       
 
     </footer>
-    <script src="java/main.js"></script>
-    <script src="java/api.js"></script>
+    <script src="java/carrito.js"></script>
+    <script src="java/suscribe.js"></script>
 </body>
 </html>

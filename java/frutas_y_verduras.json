@@ -12,7 +12,7 @@
                 "proteinas": 0.3
             },
             "descripcion": "La manzana es una fruta dulce y crujiente, rica en fibra y antioxidantes.",
-            "imagen": "https://example.com/images/manzana.jpg"
+            "imagen": "img/manzana.jpg"
         },
         {
             "nombre": "Plátano",
@@ -26,7 +26,7 @@
                 "proteinas": 1.1
             },
             "descripcion": "El plátano es una fruta tropical rica en potasio y energía.",
-            "imagen": "https://example.com/images/platano.jpg"
+            "imagen": "img/platano.jpg"
         },
         {
             "nombre": "Fresa",
@@ -40,7 +40,7 @@
                 "proteinas": 0.7
             },
             "descripcion": "La fresa es una fruta roja y jugosa, rica en vitamina C.",
-            "imagen": "https://example.com/images/fresa.jpg"
+            "imagen": "img/fresa.jpg"
         },
         {
             "nombre": "Uva",
@@ -54,7 +54,7 @@
                 "proteinas": 0.7
             },
             "descripcion": "La uva es una fruta pequeña y dulce, utilizada para hacer vino y jugos.",
-            "imagen": "https://example.com/images/uva.jpg"
+            "imagen": "img/uvas.jpg"
         },
         {
             "nombre": "Kiwi",
@@ -68,7 +68,7 @@
                 "proteinas": 1.1
             },
             "descripcion": "El kiwi es una fruta exótica con un sabor único y alto contenido de vitamina C.",
-            "imagen": "https://example.com/images/kiwi.jpg"
+            "imagen": "img/kiwi.jpg"
         },
         {
             "nombre": "Zanahoria",
@@ -82,7 +82,7 @@
                 "proteinas": 0.9
             },
             "descripcion": "La zanahoria es una raíz comestible rica en betacaroteno y fibra.",
-            "imagen": "https://example.com/images/zanahoria.jpg"
+            "imagen": "img/zanahoria.jpg"
         },
         {
             "nombre": "Brócoli",
@@ -96,7 +96,7 @@
                 "proteinas": 2.8
             },
             "descripcion": "El brócoli es una verdura crucífera rica en vitaminas C y K.",
-            "imagen": "https://example.com/images/brocoli.jpg"
+            "imagen": "img/brocoli.jpg"
         },
         {
             "nombre": "Espinaca",
@@ -110,7 +110,7 @@
                 "proteinas": 2.9
             },
             "descripcion": "La espinaca es una verdura de hoja verde rica en hierro y vitaminas.",
-            "imagen": "https://example.com/images/espinaca.jpg"
+            "imagen": "img/espinaca.jpg"
         },
         {
             "nombre": "Pepino",
@@ -124,7 +124,7 @@
                 "proteinas": 0.7
             },
             "descripcion": "El pepino es una verdura refrescante con alto contenido de agua.",
-            "imagen": "https://example.com/images/pepino.jpg"
+            "imagen": "img/pepino.jpg"
         },
         {
             "nombre": "Pimiento",
@@ -138,7 +138,7 @@
                 "proteinas": 0.9
             },
             "descripcion": "El pimiento es una verdura colorida y crujiente, rica en vitamina C.",
-            "imagen": "https://example.com/images/pimiento.jpg"
+            "imagen": "img/pimiento.jpg"
         }
     ]
 }

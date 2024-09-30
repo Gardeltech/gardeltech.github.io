@@ -1,0 +1,144 @@
+{
+    "alimentos": [
+        {
+            "nombre": "Manzana",
+            "id": 1,
+            "familia": "Rosaceae",
+            "genero": "Malus",
+            "valores_nutritivos": {
+                "calorias": 52,
+                "azucares": 10.4,
+                "carbohidratos": 13.8,
+                "proteinas": 0.3
+            },
+            "descripcion": "La manzana es una fruta dulce y crujiente, rica en fibra y antioxidantes.",
+            "imagen": "https://example.com/images/manzana.jpg"
+        },
+        {
+            "nombre": "Plátano",
+            "id": 2,
+            "familia": "Musaceae",
+            "genero": "Musa",
+            "valores_nutritivos": {
+                "calorias": 89,
+                "azucares": 12.2,
+                "carbohidratos": 22.8,
+                "proteinas": 1.1
+            },
+            "descripcion": "El plátano es una fruta tropical rica en potasio y energía.",
+            "imagen": "https://example.com/images/platano.jpg"
+        },
+        {
+            "nombre": "Fresa",
+            "id": 3,
+            "familia": "Rosaceae",
+            "genero": "Fragaria",
+            "valores_nutritivos": {
+                "calorias": 32,
+                "azucares": 4.9,
+                "carbohidratos": 7.7,
+                "proteinas": 0.7
+            },
+            "descripcion": "La fresa es una fruta roja y jugosa, rica en vitamina C.",
+            "imagen": "https://example.com/images/fresa.jpg"
+        },
+        {
+            "nombre": "Uva",
+            "id": 4,
+            "familia": "Vitaceae",
+            "genero": "Vitis",
+            "valores_nutritivos": {
+                "calorias": 69,
+                "azucares": 15.5,
+                "carbohidratos": 18.1,
+                "proteinas": 0.7
+            },
+            "descripcion": "La uva es una fruta pequeña y dulce, utilizada para hacer vino y jugos.",
+            "imagen": "https://example.com/images/uva.jpg"
+        },
+        {
+            "nombre": "Kiwi",
+            "id": 5,
+            "familia": "Actinidiaceae",
+            "genero": "Actinidia",
+            "valores_nutritivos": {
+                "calorias": 61,
+                "azucares": 9.0,
+                "carbohidratos": 14.7,
+                "proteinas": 1.1
+            },
+            "descripcion": "El kiwi es una fruta exótica con un sabor único y alto contenido de vitamina C.",
+            "imagen": "https://example.com/images/kiwi.jpg"
+        },
+        {
+            "nombre": "Zanahoria",
+            "id": 6,
+            "familia": "Apiaceae",
+            "genero": "Daucus",
+            "valores_nutritivos": {
+                "calorias": 41,
+                "azucares": 4.7,
+                "carbohidratos": 9.6,
+                "proteinas": 0.9
+            },
+            "descripcion": "La zanahoria es una raíz comestible rica en betacaroteno y fibra.",
+            "imagen": "https://example.com/images/zanahoria.jpg"
+        },
+        {
+            "nombre": "Brócoli",
+            "id": 7,
+            "familia": "Brassicaceae",
+            "genero": "Brassica",
+            "valores_nutritivos": {
+                "calorias": 34,
+                "azucares": 1.7,
+                "carbohidratos": 6.6,
+                "proteinas": 2.8
+            },
+            "descripcion": "El brócoli es una verdura crucífera rica en vitaminas C y K.",
+            "imagen": "https://example.com/images/brocoli.jpg"
+        },
+        {
+            "nombre": "Espinaca",
+            "id": 8,
+            "familia": "Amaranthaceae",
+            "genero": "Spinacia",
+            "valores_nutritivos": {
+                "calorias": 23,
+                "azucares": 0.4,
+                "carbohidratos": 3.6,
+                "proteinas": 2.9
+            },
+            "descripcion": "La espinaca es una verdura de hoja verde rica en hierro y vitaminas.",
+            "imagen": "https://example.com/images/espinaca.jpg"
+        },
+        {
+            "nombre": "Pepino",
+            "id": 9,
+            "familia": "Cucurbitaceae",
+            "genero": "Cucumis",
+            "valores_nutritivos": {
+                "calorias": 16,
+                "azucares": 1.7,
+                "carbohidratos": 3.6,
+                "proteinas": 0.7
+            },
+            "descripcion": "El pepino es una verdura refrescante con alto contenido de agua.",
+            "imagen": "https://example.com/images/pepino.jpg"
+        },
+        {
+            "nombre": "Pimiento",
+            "id": 10,
+            "familia": "Solanaceae",
+            "genero": "Capsicum",
+            "valores_nutritivos": {
+                "calorias": 20,
+                "azucares": 2.4,
+                "carbohidratos": 4.7,
+                "proteinas": 0.9
+            },
+            "descripcion": "El pimiento es una verdura colorida y crujiente, rica en vitamina C.",
+            "imagen": "https://example.com/images/pimiento.jpg"
+        }
+    ]
+}

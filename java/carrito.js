@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('total', total);
     actualizarCarrito();
 
+
     // Agregar evento de click al botón de agregar producto al carrito
     const agregarProductoBtn = document.getElementById('agregar-producto');
     agregarProductoBtn.addEventListener('click', () => {
@@ -46,14 +47,17 @@ document.addEventListener('DOMContentLoaded', function() {
             const descuento = parseFloat(descuentoInput.value);
             total = total - (total * descuento / 100);
             localStorage.setItem('total', total);
-
+    
+        }
             actualizarCarrito();
             descuentoInput.value = '';
             document.getElementById('total-carrito').textContent = total.toFixed(2);
             document.getElementById('total-carrito').textContent = total.toFixed(2);
-    }});
-        actualizarCarrito();
+   
+    
+))};       
 
+actualizarCarrito();
 
 
 
@@ -119,6 +123,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         // Inicializar el carrito
         actualizarCarrito();*/
-        
-
-      

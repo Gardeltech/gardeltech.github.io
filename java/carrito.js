@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         
-    // Your code here...
+    
 });
         
         let carrito = JSON.parse(localStorage.getItem('carrito')) || [];

@@ -61,9 +61,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
     
-});
+/*});*/
         
-        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+        /*let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
         let total = parseFloat(localStorage.getItem('total')) || 0;
 
         // Función para agregar producto al carrito
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             agregarCarrito(producto, precio);
         });
         // Inicializar el carrito
-        actualizarCarrito();
+        actualizarCarrito();*/
         
 
       
